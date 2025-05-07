@@ -2,10 +2,19 @@ import styles from './HomePage.module.css'
 
 function HomePage() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Senac Eventos Cultural</h1>
-      <p className={styles.subtitle}>Seja bem-vindo!</p>
-    </div>
+  <div>  
+    <header className={styles.header} >
+      <h3>Senac Eventos Cultural</h3>
+
+      <a href="http://localhost:5173/login">Login</a>
+    </header>
+    
+    <main>
+      <div className={styles.title} >
+        <h1>Bem-Vindo!</h1>
+      </div>
+    </main>
+  </div>  
   )
 }
 

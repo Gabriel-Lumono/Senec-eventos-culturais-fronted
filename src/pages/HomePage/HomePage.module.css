@@ -1,20 +1,24 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 3rem;
-    color: #1a1a1a;
-    margin-bottom: 1rem;
-  }
-  
-  .subtitle {
-    font-size: 1.25rem;
-    color: #555;
-  }
-  
+.header {
+  border-bottom: solid;
+  border-width: 1.4px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+.header h3 {
+  font-size: 22px;
+}
+.header a {
+  margin-left: 800px;
+  font-size: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.title h1 {
+  font-size: 70px;
+}

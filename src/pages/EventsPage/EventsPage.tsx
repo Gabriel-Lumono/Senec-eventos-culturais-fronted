@@ -4,7 +4,7 @@ import styles from './EventPages.module.css'
 function EventsPage (){
     return (
         <div>
-            <h1 className={styles.title} >Página de enventos</h1>
+            <h1 className={styles.titulo} >Página de enventos</h1>
             <ButtonComponent />
         </div>
     )
